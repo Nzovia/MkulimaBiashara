@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeicon"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        android:color="@color/itemclick" android:state_checked="true"
+        app:showAsAction="always"
+        />
+9
+    <item
+        android:id="@+id/carticon"
+        android:title="@string/orders"
+        android:icon="@drawable/ic_cart"
+        android:color="@color/itemclick" android:state_checked="true"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/notificationicon"
+        android:title="@string/notifications"
+        android:icon="@drawable/ic_notifications"
+        android:color="@color/itemclick" android:state_checked="true"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/messageicon"
+        android:title="@string/messages"
+        android:icon="@drawable/ic_message"
+        android:color="@color/itemclick" android:state_checked="true"
+        app:showAsAction="always"
+        />
+
+</menu>
